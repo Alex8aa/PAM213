@@ -1,8 +1,19 @@
-class inicioPAM {
+
+public class InterfazPAM {
+    public static void main(String[] args) {
+        
+        InterfazPAM inicio = new InterfazPAM();
+
+    
+        System.out.println(inicio.ReglamentoPOO());
+        System.out.println(inicio.LineamientosClassroom());
+        System.out.println(inicio.FechasdeParciales());
+        System.out.println(inicio.PorcentajesporParcial());
+    }
 
     public String ReglamentoPOO() {
         return """
-                Reglamento POO:
+        Reglamento POO:  
 1.Se requiere 80% de asistencia para tener derecho a evaluación parcial y 80% de trabajos en clase.
 2.Se permiten 10 minutos de tolerancia y si el alumno llega después de este tiempo puede permanecer en la clase, pero no se tomará la asistencia (Solamente en los horarios de
 inicio:7:00a.m y 14:00 p.m).
@@ -26,12 +37,14 @@ de tutores. En caso de no solucionarse pasar a la dirección del programa educat
 16. El día destinado a entrega de calificaciones todos los estudiantes deben estar presentes, ese día se entregarán exámenes y se brindará retroalimentación
 17.Este reglamento entra en vigor después de que se firme o se acepte por la mayoría de los estudiantes asistentes a la primera sesión de la materia, una vez firmado o aceptado por el
 50% más el jefe de grupo, es vigente para todo alumno inscrito en el curso aunque no esté presente en la primera sesión.
+
+              
                 """;
     }
 
     public String LineamientosClassroom() {
         return """
-                Lineamientos de Classroom:
+             Lineamientos de Classroom:
                 -Entregas completas
                 -Respetar tiempos de entrega
                 -Presentación de trabajo calidad universitaria
@@ -40,7 +53,7 @@ de tutores. En caso de no solucionarse pasar a la dirección del programa educat
 
     public String FechasdeParciales() {
         return """
-                Fechas de Exámenes Parciales:
+               Fechas de Exámenes Parciales:
                 1er Parcial: 30 de septiembre
                 2do Parcial: 4 de noviembre
                 3er Parcial: 2 de diciembre
@@ -49,12 +62,10 @@ de tutores. En caso de no solucionarse pasar a la dirección del programa educat
 
     public String PorcentajesporParcial() {
         return """
-                Porcentajes por Parcial:
+        Porcentajes por Parcial:
                 - Primer Parcial:  Examen: 40, Desempeño: 20, Producto: 30, PI:10
                 - Segundo Parcial: Examen: 40, Desempeño: 20, Producto: 30, PI:10
-                - Tercer Parcial:  Examen: 40, Desempeño: 20, Producto: 30, PI:10
+                - Tercer Parcial:  Examen: 40, Desempeño: 20, Producto: 30, PI:10   
                 """;
     }
 }
-
-
