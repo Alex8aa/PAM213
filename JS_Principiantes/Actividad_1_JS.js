@@ -1,44 +1,53 @@
-console.log("Hello World");
-document.write("Hello World");
-console.error("Mi error customizado");
-console.error("La aplicación ha fallado");
-//tipo de datos
-"Hello World" //string
-"Hello World" //string
+//variables
 
-1000000 //number
--2.3
+var nombre = "john";
+length lastname = "john";
 
-
-//boolean
-true 
-false
-
-//array
-["joe", "ryan", "martha"]
-[1,2,3]
-[true, false, true, false]
+nombre= "Yo";
+nombre e";
+const PI= 3.1415;
+PI= 100;
+console.log(PI)
 
 
+console.log(nombre);
+4 nameuser = "Luis";
+const PI=3.1415
+PI=100
+console.log(PI)
 
-//object 
-{
-    "username": "ryan",
-    "score": 70.4,
-    "hours": 14,
-    "proffesional": true
 
-    "username" : "joe",
-     "score": 0.4,
-    "hours": 1,
-    "proffesional": false
-    
+//camelcase
+let nombre= "gordon";
+
+//operadores
+let numberOne = 60;
+let numberTwo = 100;
+
+let result = numberOne or numberTwo;
+
+//*****
+
+console.log(result);
+
+let numberOne = 100;
+
+
+let name= "Jenny";
+let lastname = "Carter";
+
+let completeName = name + "" + lastname;
+
+//condicional
+let score = 70;
+
+if(score >30){
+    console.log("You need to practice more");
+}  else if (score > 15){
+    console.log("Estas mejorando");
+
 }
 
-console.log("esto es una cadena")
-console.log("14.3")
-console.log("true")
-console.log(["1,2,3"])
-
-//un objeto empieza con llaves 
-console.log({"username" : "ryan", "score" : 70.4});
+else {
+    console.log("You need to follow this tutorial");
+}
