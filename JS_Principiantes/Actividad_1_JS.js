@@ -1,53 +1,24 @@
-//variables
+//bucles
+//let count = 0;
 
-var nombre = "john";
-length lastname = "john";
+//while (count<50){
+//console.log(count);
+//count.log(count);
+//count++;
+//}
 
-nombre= "Yo";
-nombre e";
-const PI= 3.1415;
-PI= 100;
-console.log(PI)
-
-
-console.log(nombre);
-4 nameuser = "Luis";
-const PI=3.1415
-PI=100
-console.log(PI)
+//let names = ["ryan", "joe", "john"];
 
 
-//camelcase
-let nombre= "gordon";
-
-//operadores
-let numberOne = 60;
-let numberTwo = 100;
-
-let result = numberOne or numberTwo;
-
-//*****
-
-console.log(result);
-
-let numberOne = 100;
+//for(let i = names.length -1; i>=0; i--){
+ //console.log(names[i]);
+ //}
 
 
-let name= "Jenny";
-let lastname = "Carter";
+ //funcionesfunction add(n1, n2){
+ console.log(n1,n2)
+//}
 
-let completeName = name + "" + lastname;
+add(3,2);
+add(100, 300);
 
-//condicional
-let score = 70;
-
-if(score >30){
-    console.log("You need to practice more");
-}  else if (score > 15){
-    console.log("Estas mejorando");
-
-}
-
-else {
-    console.log("You need to follow this tutorial");
-}
