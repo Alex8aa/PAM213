@@ -1,7 +1,8 @@
-var nombre = "Armando";
-var edad = 25;
+let nombre = "Armando";
+const edad = 25;
 
-nombre= "Ana Maria";
+nombre= "Ana maria";
 
-var saludo = "hola, " + nombre + ", Tienes " + edad + "años.";
+const saludo = `Hola, ${nombre}. Tienes ${edad} años.]`;
 
+console.log(saludo);
