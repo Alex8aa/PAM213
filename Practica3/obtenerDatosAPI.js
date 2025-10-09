@@ -18,5 +18,4 @@ async function main() {
     console.error("Error al obtener datos:", error);
   }
 }
-
 main();
